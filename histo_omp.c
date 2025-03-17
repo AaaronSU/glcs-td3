@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <omp.h>
 
 float *data_in;
 
@@ -11,7 +12,7 @@ float *data_in;
 int *data_out;
 
 void calcule_histo(float *data, int rows) {
-#pragma xmp loop on t(i)
+#pragma omp parallel for
   for (int i = 0; i < rows; i++) {
     int j = (int)data[i];
     if ((j >= 0) && (j < 20)) {
@@ -19,6 +20,7 @@ void calcule_histo(float *data, int rows) {
     }
   }
 }
+
 
 int main(int argc, char **argv) {
   if (argc < 2){
