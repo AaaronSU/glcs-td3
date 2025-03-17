@@ -1,0 +1,9 @@
+rows 10000000
+
+debut traitement 
+Processeur 0 - Nom : mpihead 
+
+fin traitement 
+Processeur 0 - Nom : mpihead 
+Temps moyen : 0.026559 sec
+Ecart type : 0.000326 sec (1.23%)

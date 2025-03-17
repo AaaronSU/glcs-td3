@@ -23,4 +23,4 @@ run: histo
 	mpirun --mca orte_base_help_agregate 0 -host mpihead -n 1 /usr/local/var/mpishare/GLCS-CM6-TDXMP/histo
 
 clean:
-	rm *.o histo input.txt
+	rm *.o histo histo_omp
