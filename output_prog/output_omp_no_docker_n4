@@ -1,3 +1,3 @@
-rows 100000000
-Temps moyen : 2.500027 sec
-Ecart type : 0.075651 sec (3.03%)
+rows 1000000
+Temps moyen : 0.020208 sec
+Ecart type : 0.000679 sec (3.36%)
