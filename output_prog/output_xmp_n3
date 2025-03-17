@@ -1,0 +1,23 @@
+rows 1000000
+rows 1000000
+rows 1000000
+
+debut traitement 
+Processeur 2 - Nom : mpinode2 
+
+debut traitement 
+Processeur 0 - Nom : mpihead 
+
+debut traitement 
+Processeur 1 - Nom : mpinode1 
+
+fin traitement 
+Processeur 0 - Nom : mpihead 
+Temps moyen : 0.000963 sec
+Ecart type : 0.000040 sec (4.19%)
+
+fin traitement 
+Processeur 1 - Nom : mpinode1 
+
+fin traitement 
+Processeur 2 - Nom : mpinode2 
